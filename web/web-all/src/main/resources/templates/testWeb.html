@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+        测试testWeb
+        <br>
+        <input type="text" th:value="${hello}">
+        <br>
+        循环
+        <div th:each="item:${list}">
+            <input type="text" th:value="${item}">
+        </div>
+
+</body>
+</html>
